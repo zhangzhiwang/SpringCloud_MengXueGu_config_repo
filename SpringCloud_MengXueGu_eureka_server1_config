@@ -7,7 +7,7 @@ spring:
   profiles: dev
 
 server:
-  port: 9000
+  port: 9111
   
 eureka:
   instance:
@@ -27,7 +27,7 @@ spring:
   profiles: prod
   
 server:
-  port: 9100
+  port: 9123
   
 eureka:
   instance:
