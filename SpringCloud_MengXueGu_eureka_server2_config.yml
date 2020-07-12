@@ -6,7 +6,7 @@ spring:
 spring:
   profiles: dev
 server:
-  port: 9111
+  port: 9222
   
 eureka:
   instance:
@@ -15,15 +15,15 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://eureka-server-1:9000/eureka
+      defaultZone: http://eureka-server-1:9111/eureka
   server:
     enable-self-preservation: false
     
 ---
 spring:
-  profiles: dev
+  profiles: prod
 server:
-  port: 9001
+  port: 9333
   
 eureka:
   instance:
