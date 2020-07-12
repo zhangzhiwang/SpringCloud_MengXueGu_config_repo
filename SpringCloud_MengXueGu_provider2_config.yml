@@ -43,7 +43,7 @@ spring:
     password: zzw1234
     
 server:
-  port: 8491
+  port: 8391
   
 mybatis:
   configuration:
