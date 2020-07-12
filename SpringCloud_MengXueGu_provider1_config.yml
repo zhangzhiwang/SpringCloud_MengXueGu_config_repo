@@ -42,7 +42,7 @@ management:
 ---
 spring:
   application:
-    name: spring-cloud-provider #配置工程名，注意如果是集群的话工程名都保持一致
+    name: spring-cloud-provider1 #配置工程名，注意如果是集群的话工程名都保持一致
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/springcloud_db02
