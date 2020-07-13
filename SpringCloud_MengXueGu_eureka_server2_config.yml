@@ -10,12 +10,13 @@ server:
   
 eureka:
   instance:
-    hostname: eureka-server-2
+#     hostname: eureka-server-2
+    hostname: 192.168.124.4
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://eureka-server-1:9111/eureka
+      defaultZone: http://192.168.124.4:9111/eureka
   server:
     enable-self-preservation: false
     
